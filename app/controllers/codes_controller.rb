@@ -1,6 +1,6 @@
 class CodesController < ApplicationController
   def index
-    render html: <h1>This site is for testing </h1>
+    render html: '<h1>This site is for testing </h1>'.html_safe
   end
 
 
