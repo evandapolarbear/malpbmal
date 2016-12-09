@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  get 'codes' => 'codes#index'
+  get '/' => 'codes#index'
+  get 'codes' => 'codes#plain'
+  get 'onlineobf' => 'codes#onlineobf'
 end
